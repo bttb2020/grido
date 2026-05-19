@@ -1,0 +1,10 @@
+[package]
+name = "grido-app"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+makepad-widgets = { workspace = true }
+grido-core = { path = "../grido-core" }
+grido-grid = { path = "../grido-grid" }
+grido-io = { path = "../grido-io" }
